@@ -12,7 +12,7 @@ const Community = () => (
     </Row>
     <Row>
       <Col className="d-flex justify-content-center">
-        <img src="./Ru.png" alt="Russia/Россия" />
+        <img src="./Ru.png" id='ruMap' alt="Russia/Россия" />
       </Col>
     </Row>
   </Container>

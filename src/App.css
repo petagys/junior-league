@@ -1,3 +1,7 @@
+/* * {
+  font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
 .navLink {
   font-size: 15px;
   font-weight: 700;
@@ -59,13 +63,6 @@
   font-size: 63px;
   line-height: 71px;
   max-width: 280px;
-}
-
-@media (min-width: 992px) {
-  .nav {
-    height: 120px;
-    box-shadow: 0 1px 0 0 #000000;
-  }
 }
 
 .desc {
@@ -392,4 +389,118 @@ h1 > span {
 
 * {
   scrollbar-width: thin;
+}
+
+.whoWe-block {
+  position: relative;
+  margin-bottom: 136px;
+}
+
+@media (max-width: 991px) {
+  .desktopOnly {
+    display: none;
+  }
+  
+  .name {
+    margin: 0;
+    font-size: 40px;
+    line-height: 49px;
+  }
+  
+  .nameRow {
+    align-items: baseline;
+  }
+
+  .desc {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 24px;
+  }
+  
+  .btn-common {
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .tellAbout {
+    margin-right: 12px;
+  }
+
+  .btnRow {
+    padding-bottom: 0;
+    box-shadow:none;
+    margin-bottom: 20px;
+  }
+
+  .whoWeAre {
+    display: none;
+  }
+
+  h1 > span {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .whoWEMob {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+
+  #photo1 {
+    width: 100%;
+  }
+
+  #ruMap {
+    width: 100%;
+  }
+
+  #descMob {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .colorfulHeader {
+    font-size: 40px;
+    line-height: 99px;
+    margin-bottom: 28px;
+  }
+
+  .whoWe-block {
+    margin-bottom: 16px;
+  }
+
+  .events-row {
+    margin: 12px;
+    padding: 0px 0px 20px 12px;
+  }
+
+  .events {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .events-place {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav {
+    height: 120px;
+    box-shadow: 0 1px 0 0 #000000;
+  }
+}
+
+.bird-mob {
+  margin-bottom: 28px;
 }

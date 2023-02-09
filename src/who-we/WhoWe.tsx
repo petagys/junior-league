@@ -1,27 +1,40 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from "react-bootstrap";
 
 const WhoWe = () => (
-  <div
-    style={{
-      position: "relative",
-      marginBottom: '136px'
-    }}
-  >
+  <div className="whoWe-block">
     {/* <div className="lululu" /> */}
     <Container style={{ zIndex: 1, position: "relative" }}>
       <Row>
-        <Col>
+        <Col xs="6" lg="6">
           <img id="photo1" src="./photo1.png" alt="Фото1" />
         </Col>
-        <Col className="d-flex align-items-end">
-          <span id="desc">
+        <Col xs="6" className="d-flex align-items-end d-lg-none">
+          <h1 className="whoWEMob">
+            <span>КТО</span>
+            <span style={{ fontWeight: "500", marginLeft: "16px" }}>МЫ?</span>
+          </h1>
+        </Col>
+        <Col className="d-none d-lg-flex align-items-end">
+          <div id="desc">
             <b>Лига Юниор</b> – сообщество юных лидеров, которые способны
             воплощать в жизнь идеи и дух предпринимательства, объединять,
             вдохновлять, мотивировать других в движении к новым свершениями. От
             их неиссякаемой энергии, творческой вовлеченности и огромного
             желания зависит наше общее будущее. От внедрения и развития идей и
             проектов – экономический прогресс России.
-          </span>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="d-block d-lg-none">
+          <div id="descMob">
+            <b>Лига Юниор</b> – сообщество юных лидеров, которые способны
+            воплощать в жизнь идеи и дух предпринимательства, объединять,
+            вдохновлять, мотивировать других в движении к новым свершениями. От
+            их неиссякаемой энергии, творческой вовлеченности и огромного
+            желания зависит наше общее будущее. От внедрения и развития идей и
+            проектов – экономический прогресс России.
+          </div>
         </Col>
       </Row>
     </Container>
