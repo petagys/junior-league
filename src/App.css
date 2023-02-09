@@ -1,0 +1,395 @@
+.navLink {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: #222;
+  padding: 8px 12px;
+}
+
+.navLink:first-child{
+  margin: 0 40px 0;
+}
+
+.navLink:hover {
+  box-shadow: 0 0 0 1px #000000;
+  border-radius: 15px;
+}
+
+.btn-common {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  padding: 8px 20px 14px;
+  max-width: 212px;
+  border-radius: 15px;
+}
+
+.tellAbout {
+  margin-right: 44px;
+  background-color: #FFFBFB;
+  border: 2.5px solid #000000;
+  border-radius: 15px;
+  background: linear-gradient(91.09deg, #723496 23.05%, #DA0E01 84.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tellAbout:hover {
+  border: 2.5px solid #723496;
+  background-color: #b1b1b1;
+}
+
+.findTeam {
+  background: linear-gradient(270deg, #870DCE -7.92%, #EA0000 40.08%, #FF5C00 92.02%, #FFBB02 118.32%);
+  border: none;
+}
+
+.findTeam:hover {
+  background: linear-gradient(270deg, #723496 23.05%, #DA0E01 84.19%);
+}
+
+.name {
+  margin: 48px 0 72px;
+  color: #743397;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 71px;
+  max-width: 280px;
+}
+
+@media (min-width: 992px) {
+  .nav {
+    height: 120px;
+    box-shadow: 0 1px 0 0 #000000;
+  }
+}
+
+.desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.btnRow {
+  padding-bottom: 48px;
+  box-shadow: 0 1px 0 0 #000000;
+  margin-bottom: 48px;
+}
+
+.forGradient {
+  background-image: url('/dots.png'), url('/dots.png');
+  background-repeat: no-repeat;
+  background-position: 4% 44%, 88% 19%;
+  position: relative;
+}
+
+h1 > span {
+  font-size: 99px;
+  line-height: 89px;
+}
+
+#who {
+  letter-spacing: 34px;
+  text-align: left;
+  font-weight: 400;
+}
+
+#we {
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-align: left;
+  margin-right: 80px;
+}
+
+.whoWeAre {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+#desc {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: -0.045em;
+  text-align: left;
+  color: #fff;
+  max-width: 492px;
+}
+
+.gradient1 {
+  position: absolute;
+  right: 1%;
+  filter: blur(20px);
+  pointer-events: none;
+}
+
+.gradient2 {
+    background-image: url(/who-we-gradient.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 240px;
+    background-position: center;
+    filter: blur(50px);
+    background-size: cover;
+    pointer-events: none;
+    /* background-image: url(/who-we-gradient.png);
+    position: absolute;
+    pointer-events: none;
+    top: -533px;
+    width: 100%;
+    height: 233%;
+    filter: blur(49px);
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.lululu {
+  background-image: url(/leagueJunior.png);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  filter: blur(50px);
+  /* background-size: cover; */
+}
+
+#photo1 {
+  border-radius: 50%;
+}
+
+.whoWeBlock {
+  position: absolute;
+}
+
+.colorfulHeader {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 99px;
+  letter-spacing: 0em;
+  margin-bottom: 88px;
+  background: linear-gradient(90deg, #591DDA 7.71%, #FF2E2E 51.37%, #FF9900 92.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.events {
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.events-month {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.events-place {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.events-row {
+  padding: 32px;
+  border: 1px solid;
+  border-image: linear-gradient(to left, #FE9800 0.72%, #E23922 52.08%, #7211D3 96.73%)0 0 69% 0
+}
+
+#howTakePart {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 99px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 188px 0 80px;
+}
+
+.step {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.gradient3 {
+  background-image: url(/gradientBack2.png);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 280px;
+  pointer-events: none;
+  background-position: bottom;
+  filter: blur(20px);
+  background-size: cover;
+  z-index: -1;
+}
+
+.gradient4 {
+  background-image: url(/gradientLine3.png);
+  position: absolute;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  bottom: -416px;
+  /* background-position: bottom; */
+  filter: blur(20px);
+  background-size: cover;
+  z-index: -1;
+  /* position: absolute;
+  pointer-events: none;
+  width: 100%;
+  filter: blur(20px);
+  z-index: -1;
+  bottom: -346px; */
+}
+
+.development {
+  margin: 132px 0 192px;
+    position: relative;
+}
+
+.gradientLine2 {
+  width: 100%;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.development-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+}
+
+.development-description {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin: 60px 0 48px;
+}
+
+.development-such {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.development-such > span {
+  color: #8F3DBE;
+}
+
+.target1 {
+  position: absolute;
+  margin-top: 101px;
+  margin-left: -117px;
+}
+
+.target2 {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.circle {
+  background: linear-gradient(49.3deg, rgba(127, 30, 204, 0.75) 18.92%, rgba(251, 0, 0, 0.75) 73.11%);
+  transform: rotate(43.46deg);
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+.tasks-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+.tasks-text > div {
+  font-weight: 700;
+}
+
+.tasks-row {
+  margin-bottom: 48px;
+}
+
+.find {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  background: linear-gradient(90deg, #591DDA 3.58%, #FF2E2E 54.74%, #FF9900 90.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.each-slide {
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid #fff;
+  border-image: linear-gradient(205.16deg, #5E36B4 7.59%, #FF6006 59.56%, #FFB906 99.98%);
+  border-image-slice: 1;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+}
+
+.slide-image {
+  width: 100%;
+  z-index: -1;
+}
+
+.slide-image-block {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slide-text {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+        
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb { 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.05, #591DDA), color-stop(.60, #FF2E2E), color-stop(1, #FF9900));
+    filter: blur(20px);
+    border-radius: 10px;
+}
+
+* {
+  scrollbar-width: thin;
+}
