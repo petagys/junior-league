@@ -220,6 +220,11 @@ h1 > span {
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
+  align-items: center;
+}
+
+.countsMob {
+  display: none;
 }
 
 .gradient3 {
@@ -396,6 +401,7 @@ h1 > span {
   margin-bottom: 136px;
 }
 
+
 @media (max-width: 991px) {
   .desktopOnly {
     display: none;
@@ -491,6 +497,42 @@ h1 > span {
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
+  }
+
+  #howTakePart {
+    margin: 52px 0 24px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .countsDesktop {
+    display: none;
+  }
+  
+  .step {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    align-items: flex-start;
+  }
+
+  .countsMob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #FFFBFB;
+    border-radius: 50%;
+  }
+
+  .countsMob > span {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .development {
+    margin: 40px 0;
   }
 }
 

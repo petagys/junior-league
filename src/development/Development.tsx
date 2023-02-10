@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Development = () => (
   <div className="development">
-    <img src="./target2.png" alt="Цель" className="target2" />
+    <img src="./target2.png" alt="Цель" className="target2 desktopOnly" />
     <img
       className="gradientLine2"
       src="./gradientLine2.png"
@@ -10,7 +10,7 @@ const Development = () => (
     />
     <Container>
       <Row>
-        <Col className="text-end">
+        <Col className="text-end desktopOnly">
           <img src="./target1.png" alt="Цель" className="target1" />
           <img
             src="./groupWork.png"
@@ -19,13 +19,15 @@ const Development = () => (
         </Col>
         <Col>
           <h1
-            className="development-text"
+            className="development-text desktopOnly"
             style={{ fontSize: "79px", paddingTop: "112px" }}
           >
             РАЗВИТИЕ
           </h1>
-          <div className="development-text">детско-юношеского</div>
-          <div className="development-text">предпринимательства</div>
+          <div className="development-text desktopOnly">детско-юношеского</div>
+          <div className="development-text desktopOnly">
+            предпринимательства
+          </div>
           <div className="development-description">
             Мы создаем эффективную экосистему детско-юношеского
             предпринимательства, создавая условия для поддержки, развития и
