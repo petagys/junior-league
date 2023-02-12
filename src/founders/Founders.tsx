@@ -5,16 +5,16 @@ import "react-slideshow-image/dist/styles.css";
 const Founders = () => {
   const responsiveSettings = [
     {
-      breakpoint: 800,
+      breakpoint: 1000,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 500,
+      breakpoint: 475,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
@@ -50,7 +50,8 @@ const Founders = () => {
         duration={5000}
         transitionDuration={500}
         infinite
-        slidesToShow={3}
+        responsive={responsiveSettings}
+        slidesToShow={1}
         indicators
         arrows={false}
       >

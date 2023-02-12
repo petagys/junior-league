@@ -10,6 +10,32 @@ const Development = () => (
     />
     <Container>
       <Row>
+        <Col className="d-flex justify-content-end position-relative d-lg-none ">
+          <div className='image-block-mob'>
+            <img style={{bottom: '0'}} className='target-mob' src="./target-1-mob.png" alt="Цель" />
+            <img className='target-mob' src="./target-2-mob.png" alt="Цель" />
+          </div>
+          <div className="groupWorkMob">
+            <h1
+              className="development-text"
+              style={{ fontSize: "44px"}}
+            >
+              РАЗВИТИЕ
+            </h1>
+            <div className="development-text">
+              детско-юношеского
+            </div>
+            <div className="development-text" style={{marginBottom: '28px'}}>
+              предпринимательства
+            </div>
+            <img
+              width="100%"
+              style={{borderRadius: '40px'}}
+              src="./groupWork-mob.png"
+              alt="Развитие детско-юношеского предпринимательства"
+            />
+          </div>
+        </Col>
         <Col className="text-end desktopOnly">
           <img src="./target1.png" alt="Цель" className="target1" />
           <img
@@ -17,7 +43,7 @@ const Development = () => (
             alt="Развитие детско-юношеского предпринимательства"
           />
         </Col>
-        <Col>
+        <Col lg="6" sx="12">
           <h1
             className="development-text desktopOnly"
             style={{ fontSize: "79px", paddingTop: "112px" }}

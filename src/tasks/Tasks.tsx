@@ -31,7 +31,7 @@ const Tasks = () => {
         <Col lg="8">
           {text.map(({ title, desc }) => (
             <Row key={title} className='tasks-row'>
-              <Col xs="1">
+              <Col xs="1" className='d-none d-lg-block'>
                 <div className="circle" />
               </Col>
               <Col className="tasks-text">

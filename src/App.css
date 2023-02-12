@@ -534,6 +534,54 @@ h1 > span {
   .development {
     margin: 40px 0;
   }
+
+  .groupWorkMob {
+    width: 75%;
+  }
+
+  .development-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .image-block-mob {
+    display: block;
+    position: relative;
+    width: 25%;
+  }
+
+  .target-mob {
+    position: absolute;
+    width: 100%;
+  }
+
+  .tasks-text {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid;
+    border-image: linear-gradient(to left, #FE9800 0.72%, #E23922 52.08%, #7211D3 96.73%)69% 0 69% 0;
+  }
+
+  .tasks-text > div {
+    font-weight: 500;
+  }
+
+  .tasks-text > p {
+    margin-bottom: 0;
+  }
+
+  .tasks-row {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .find {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 992px) {

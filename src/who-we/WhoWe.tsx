@@ -11,7 +11,7 @@ const WhoWe = () => (
         <Col xs="6" className="d-flex align-items-end d-lg-none">
           <h1 className="whoWEMob">
             <span>КТО</span>
-            <span style={{ fontWeight: "500", marginLeft: "16px" }}>МЫ?</span>
+            <span style={{ fontWeight: "500", marginLeft: "12px" }}>МЫ?</span>
           </h1>
         </Col>
         <Col className="d-none d-lg-flex align-items-end">
