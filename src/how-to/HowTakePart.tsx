@@ -1,7 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
 
 const HowTakePart = () => (
-  <Container>
+  <Container className="position-relative">
+    <img
+      className="arr2-mob desctopOnly"
+      src="./arrow2-mob.png"
+      alt="Лига Юниор"
+    />
     <h1 id="howTakePart">КАК ПРИНЯТЬ УЧАСТИЕ?</h1>
     <Row>
       <Col className="d-flex justify-content-center">

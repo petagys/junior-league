@@ -7,12 +7,21 @@ const WhoWe = () => (
       <Row>
         <Col xs="6" lg="6">
           <img id="photo1" src="./photo1.png" alt="Фото1" />
+          <img id="photoText" src="./text-mob.png" alt="Лига Юниор" />
         </Col>
-        <Col xs="6" className="d-flex align-items-end d-lg-none">
+        <Col
+          xs="6"
+          className="d-flex align-items-end d-lg-none position-relative"
+        >
           <h1 className="whoWEMob">
             <span>КТО</span>
             <span style={{ fontWeight: "500", marginLeft: "12px" }}>МЫ?</span>
           </h1>
+          <img
+            className="arr1-mob desktopOnly"
+            src="./arrow1-mob.png"
+            alt="Лига Юниор"
+          />
         </Col>
         <Col className="d-none d-lg-flex align-items-end">
           <div id="desc">
