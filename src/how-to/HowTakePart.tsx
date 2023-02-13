@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const HowTakePart = () => (
   <Container className="position-relative">
     <img
-      className="arr2-mob desctopOnly"
+      className="arr2-mob desktopOnly"
       src="./arrow2-mob.png"
       alt="Лига Юниор"
     />

@@ -11,32 +11,45 @@ const Development = () => (
     <Container>
       <Row>
         <Col className="d-flex justify-content-end position-relative d-lg-none ">
-          <div className='image-block-mob'>
-            <img style={{bottom: '0'}} className='target-mob' src="./target-1-mob.png" alt="Цель" />
-            <img className='target-mob' src="./target-2-mob.png" alt="Цель" />
+          <div className="image-block-mob">
+            <img
+              style={{ bottom: "0" }}
+              className="target-mob"
+              src="./target-1-mob.png"
+              alt="Цель"
+            />
+            <img className="target-mob" src="./target-2-mob.png" alt="Цель" />
           </div>
           <div className="groupWorkMob">
-            <h1
-              className="development-text"
-              style={{ fontSize: "44px"}}
-            >
+            <h1 className="development-text" style={{ fontSize: "44px" }}>
               РАЗВИТИЕ
             </h1>
-            <div className="development-text">
-              детско-юношеского
-            </div>
-            <div className="development-text" style={{marginBottom: '28px'}}>
+            <div className="development-text">детско-юношеского</div>
+            <div className="development-text" style={{ marginBottom: "28px" }}>
               предпринимательства
             </div>
             <img
               width="100%"
-              style={{borderRadius: '40px'}}
+              style={{ borderRadius: "40px" }}
               src="./groupWork-mob.png"
               alt="Развитие детско-юношеского предпринимательства"
             />
+            <img src="./arrow3-mob.png" className="arr3-mob" alt="arrow3" />
           </div>
         </Col>
-        <Col className="text-end desktopOnly">
+        <Col className="text-end desktopOnly position-relative">
+          <img
+            id="arrow3"
+            className="desktopOnly"
+            src="./arrow3.png"
+            alt="Лига Юниор"
+          />
+          <img
+            id="arrow4"
+            className="desktopOnly"
+            src="./arrow4.png"
+            alt="Лига Юниор"
+          />
           <img src="./target1.png" alt="Цель" className="target1" />
           <img
             src="./groupWork.png"

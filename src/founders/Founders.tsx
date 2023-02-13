@@ -47,7 +47,7 @@ const Founders = () => {
         </Col>
       </Row>
       <Slide
-        duration={5000}
+        duration={3000}
         transitionDuration={500}
         infinite
         responsive={responsiveSettings}

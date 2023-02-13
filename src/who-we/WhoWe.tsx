@@ -7,7 +7,8 @@ const WhoWe = () => (
       <Row>
         <Col xs="6" lg="6">
           <img id="photo1" src="./photo1.png" alt="Фото1" />
-          <img id="photoText" src="./text-mob.png" alt="Лига Юниор" />
+          <img id="photoText-mob" src="./text-mob.png" alt="Лига Юниор" />
+          <img id="photoText" src="./leagueJunior.png" alt="Лига Юниор" />
         </Col>
         <Col
           xs="6"
@@ -17,14 +18,22 @@ const WhoWe = () => (
             <span>КТО</span>
             <span style={{ fontWeight: "500", marginLeft: "12px" }}>МЫ?</span>
           </h1>
-          <img
-            className="arr1-mob desktopOnly"
-            src="./arrow1-mob.png"
-            alt="Лига Юниор"
-          />
+          <img className="arr1-mob" src="./arrow1-mob.png" alt="Лига Юниор" />
         </Col>
         <Col className="d-none d-lg-flex align-items-end">
           <div id="desc">
+            <img
+              id="arrow1"
+              className="desktopOnly"
+              src="./arrow1.png"
+              alt="Лига Юниор"
+            />
+            <img
+              id="arrow2"
+              className="desktopOnly"
+              src="./arrow2.png"
+              alt="Лига Юниор"
+            />
             <b>Лига Юниор</b> – сообщество юных лидеров, которые способны
             воплощать в жизнь идеи и дух предпринимательства, объединять,
             вдохновлять, мотивировать других в движении к новым свершениями. От
