@@ -673,6 +673,15 @@ h1 > span {
     right: 72px;
     top: 78px;
   }
+
+  .navLink:first-child{
+    margin: 0;
+  }
+
+  .navLink:hover {
+    box-shadow:none;
+    border-radius: 0;
+  }
 }
 
 @media (min-width: 992px) {
